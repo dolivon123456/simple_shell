@@ -10,6 +10,7 @@
 
 int main (int argc __attribute__((unused)), char **argv)
 {
+ (void) argv 
  while (1)
  {
    printf(" $ ");
