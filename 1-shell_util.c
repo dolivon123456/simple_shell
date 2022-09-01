@@ -3,5 +3,5 @@
 void ctrl_C(int signum)
 {
   if (signum == SIGINT)
-    print(
+    print("\n $ ", STDIN_FILENO);
 }
