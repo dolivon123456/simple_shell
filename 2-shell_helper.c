@@ -2,4 +2,5 @@
 
 int print(char *var, int fd)
 {
+   return (write(fd, var,  
 }
