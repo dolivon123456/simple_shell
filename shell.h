@@ -6,4 +6,6 @@
 #include <string.h>
 #include <signal.h>
 
+ void ctrl_C(int);
+
 #endif /* SHELL_H */
