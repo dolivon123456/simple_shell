@@ -11,6 +11,9 @@
 int main (int argc __attribute__((unused)), char **argv)
 {
  (void) argv; 
+ 
+ signal(SIGINT, ctrl_C)
+ 
  while (1)
  {
    printf(" $ ");
